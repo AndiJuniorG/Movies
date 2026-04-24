@@ -14,6 +14,6 @@ namespace Movies.Data
         {
         }
 
-        public DbSet<Movies.Models.Movies> Movies { get; set; } = default!;
+        public DbSet<Movies.Models.Movie> Movies { get; set; } = default!;
     }
 }
